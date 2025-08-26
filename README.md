@@ -45,7 +45,7 @@ This implementation demonstrates the framework using an email marketing scenario
    ```
 
 4. **Open and run the main notebook**:
-   - `expected_value_framework_comprehensive.ipynb`
+   - `expected_value_framework_poc.ipynb`
 
 ## 🛠️ Available Commands
 
@@ -130,11 +130,11 @@ EV_no_send = (1 - p) × V_false_no_send + p × V_correct_no_send
 
 ```
 the-expected-value-framework/
-├── README.md                                    # This file
-├── pyproject.toml                              # Project dependencies
-├── Makefile                                    # Development commands
-├── expected_value_framework_comprehensive.ipynb # Main notebook
-└── .venv/                                      # Virtual environment
+├── README.md                          # This file
+├── pyproject.toml                    # Project dependencies
+├── Makefile                          # Development commands
+├── expected_value_framework_poc.ipynb # Main notebook
+└── .venv/                            # Virtual environment
 ```
 
 ## 🎓 Learning Outcomes
@@ -182,7 +182,7 @@ make run
 ```bash
 source .venv/bin/activate
 jupyter notebook
-# Open expected_value_framework_comprehensive.ipynb
+# Open expected_value_framework_poc.ipynb
 ```
 
 ## 💡 Key Takeaways

@@ -39,7 +39,7 @@ notebook:
 
 run:
 	@echo "🚀 Running the Expected Value Framework notebook..."
-	source .venv/bin/activate && jupyter nbconvert --to notebook --execute expected_value_framework_comprehensive.ipynb --output executed_expected_value_framework_comprehensive.ipynb
+	source .venv/bin/activate && jupyter nbconvert --to notebook --execute expected_value_framework_poc.ipynb --output executed_expected_value_framework_poc.ipynb
 	@echo "✅ Notebook executed successfully!"
 
 demo:
