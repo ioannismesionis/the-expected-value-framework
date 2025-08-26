@@ -16,19 +16,58 @@ parts/
 sdist/
 var/
 wheels/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
-# Virtual environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -43,6 +82,19 @@ ipython_config.py
 # pipenv
 Pipfile.lock
 
+# UV
+# uv.lock
+
+# poetry
+# poetry.lock
+
+# pdm
+.pdm-python
+.pdm-build/
+
+# pixi
+.pixi
+
 # PEP 582
 __pypackages__/
 
@@ -55,6 +107,7 @@ celerybeat.pid
 
 # Environments
 .env
+.envrc
 .venv
 env/
 venv/
@@ -97,17 +150,29 @@ cython_debug/
 *.swp
 *.swo
 
-# Logs
-*.log
+# PyCharm
+# .idea/
 
-# Coverage reports
-htmlcov/
-.coverage
-.coverage.*
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
+# Abstra
+.abstra/
+
+# Visual Studio Code
+# .vscode/
+
+# Ruff stuff:
+.ruff_cache/
+
+# PyPI configuration file
+.pypirc
+
+# Cursor
+.cursorignore
+.cursorindexingignore
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
 
 # Executed notebooks
 executed_*.ipynb
