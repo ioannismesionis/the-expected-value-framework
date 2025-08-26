@@ -1,0 +1,27 @@
+[project]
+name = "the-expected-value-framework"
+version = "0.1.0"
+description = "Expected Value Framework for ML Decision Making"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.2.6",
+    "pandas>=2.3.2",
+    "scikit-learn>=1.7.1",
+    "seaborn>=0.13.2",
+    "matplotlib>=3.5.0",
+    "jupyter>=1.0.0",
+    "lightgbm>=3.3.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "black>=22.0.0",
+    "isort>=5.10.0",
+    "flake8>=4.0.0",
+]
